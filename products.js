@@ -51,3 +51,6 @@ console.log("El elemento obtenido tiene "+unificar.length ," elementos.")
 //Con la cadena de texto obtenida generar un nuevo array con cada una de
 //las palabras de la cadena de texto. Tener en cuenta que los elementos
 //deben estar separados por una coma.
+
+
+//test 1.1
