@@ -17,11 +17,11 @@ console.log(electrodomesticos[5])
 
 //b. Extraer el primer elemento del array y agregarlo al final del mismo.
 electrodomesticos.push(electrodomesticos.shift())
-console.log(electrodomesticos)
+//console.log(electrodomesticos)
 
 //c. Agregar al final del array dos (2) nuevos productos.
 electrodomesticos.push("ventilador","cafetera");
-console.log(electrodomesticos)
+//console.log(electrodomesticos)
 
 //d. Mostrar por la consola la cantidad de elementos que contiene el array.
 console.log("El arreglo tiene " +electrodomesticos.length ," items")
@@ -40,7 +40,7 @@ let acumBooleanEncontrado=false;
 //f. Unificar todos los elementos del array en una cadena de texto (string),
 //separando los elementos por espacios en blanco.
 let unificar=electrodomesticos.join(" ");
-console.log(unificar);
+//console.log(unificar);
 
 
 //g. Determinar la cantidad de elementos que posee la cadena de texto obtenida.
