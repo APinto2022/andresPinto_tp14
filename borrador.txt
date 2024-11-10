@@ -1,0 +1,13 @@
+function moverAlInicio(arr, elementoABorrar, elementoAAgregar) {
+    let index = arr.indexOf(elemento);
+
+    if (index !== -1) {
+        // Elimino el elemento del arreglo
+        arr.splice(index, 1,);
+        
+        // Agrega el elemento al inicio
+        arr.unshift(elemento);
+    }
+
+    return arr;
+}

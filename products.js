@@ -39,18 +39,23 @@ let acumBooleanEncontrado=false;
 
 //f. Unificar todos los elementos del array en una cadena de texto (string),
 //separando los elementos por espacios en blanco.
-let unificar=electrodomesticos.join(" ");
-//console.log(unificar);
+electrodomesticos=electrodomesticos.join(" ");
 
 
 //g. Determinar la cantidad de elementos que posee la cadena de texto obtenida.
-console.log("El elemento obtenido tiene "+unificar.length ," elementos.")
+console.log("El elemento obtenido tiene ", electrodomesticos.length ," elementos.")
 
 //h. Cambiar el nombre de algún producto de la cadena de texto por otro,valiéndose de la función adecuada para ello.
-//splice(pos, deleteCount, ...items) – desde el índice pos borra deleteCount elementos e inserta items.
-//Con la cadena de texto obtenida generar un nuevo array con cada una de
+console.log(electrodomesticos);
+electrodomesticos=electrodomesticos.replace("televisor", "tostadora");
+console.log(electrodomesticos);
+
+//i Con la cadena de texto obtenida generar un nuevo array con cada una de
 //las palabras de la cadena de texto. Tener en cuenta que los elementos
 //deben estar separados por una coma.
+electrodomesticos=electrodomesticos.split(" ");
+console.log(electrodomesticos);
+
 
 
 //test 1.1
