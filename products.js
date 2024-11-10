@@ -3,9 +3,7 @@
 let electrodomesticos=["plancha", "microondas", "lavarropas", "heladera", "televisor", "licuadora"];
 console.log(electrodomesticos)
 
-//a. Acceder de manera arbitraria a diferentes elementos del array. Recuerda
-//mostrar por la consola los resultados.
-
+//a. Acceder de manera arbitraria a diferentes elementos del array. Accedo a todos arbitrariamente
 
 console.log(electrodomesticos[0])
 console.log(electrodomesticos[1])
@@ -26,10 +24,12 @@ electrodomesticos.push("ventilador","cafetera");
 //d. Mostrar por la consola la cantidad de elementos que contiene el array.
 console.log("El arreglo tiene " +electrodomesticos.length ," items")
 
-//e. Buscar un elemento del array y crear una condición responsable de
-//establecer si existe o no el producto dentro del array. De existir, se le debe
-//mostrar el mensaje: “Producto encontrado”. En el caso contrario mostrar el
-//mensaje “El producto buscado no existe”.
+/*
+e. Buscar un elemento del array y crear una condición responsable de
+establecer si existe o no el producto dentro del array. De existir, se le debe
+mostrar el mensaje: “Producto encontrado”. En el caso contrario mostrar el
+mensaje “El producto buscado no existe”.
+*/
 let elementosaBuscar="aspiradora";
 let acumBooleanEncontrado=false;
     for(let i=0; i<electrodomesticos.length;i++){
